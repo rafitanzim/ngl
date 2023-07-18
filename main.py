@@ -124,23 +124,23 @@ eszkozid = eszkozidgeneralas()
 
 def kerdesekBeolvas():
   global kerdesek, kerdesekpot, neverhave, haromwords, nevek, tbh, tizperde, rizzme, confessions
-  with open("src/questions.txt", "r", encoding="UTF-8") as olvas:
+  with open("questions.txt", "r", encoding="UTF-8") as olvas:
     kerdesek = [sorok.strip() for sorok in olvas]
-  with open("src/questions.txt", "r", encoding="UTF-8") as olvas:
+  with open("questions.txt", "r", encoding="UTF-8") as olvas:
     kerdesekpot = [sorok.strip() for sorok in olvas]
-  with open("src/neverhave.txt", "r", encoding="UTF-8") as olvas:
+  with open("neverhave.txt", "r", encoding="UTF-8") as olvas:
     neverhave = [sorok.strip() for sorok in olvas]
-  with open("src/3words.txt", "r", encoding="UTF-8") as olvas:
+  with open("3words.txt", "r", encoding="UTF-8") as olvas:
     haromwords = [sorok.strip() for sorok in olvas]
-  with open("src/names.txt", "r", encoding="UTF-8") as olvas:
+  with open("names.txt", "r", encoding="UTF-8") as olvas:
     nevek = [sorok.strip() for sorok in olvas]
-  with open("src/tbh.txt", "r", encoding="UTF-8") as olvas:
+  with open("tbh.txt", "r", encoding="UTF-8") as olvas:
     tbh = [sorok.strip() for sorok in olvas]
-  with open("src/dealbreaker.txt", "r", encoding="UTF-8") as olvas:
+  with open("dealbreaker.txt", "r", encoding="UTF-8") as olvas:
     tizperde = [sorok.strip() for sorok in olvas]
-  with open("src/rizzme.txt", "r", encoding="UTF-8") as olvas:
+  with open("rizzme.txt", "r", encoding="UTF-8") as olvas:
     rizzme = [sorok.strip() for sorok in olvas]
-  with open("src/confessions.txt", "r", encoding="UTF-8") as olvas:
+  with open("confessions.txt", "r", encoding="UTF-8") as olvas:
     confessions = [sorok.strip() for sorok in olvas]
     
 def ellenorzesMD():
